@@ -1,29 +1,23 @@
 {
-  "name": "yakjs",
-  "version": "0.0.1",
-  "description": "simple code snippet of a `.yakjs` file",
-  "main": "YakJSCOMPILE/bin/index.js",
+  "name": "yaklr",
+  "description": "`.yaklr` script file",
+  "version": "1.0.0",
+  "main": "grammar.js",
   "scripts": {
-    "start": "node YakJSCOMPILE/bin/index.js"
+    "parser": "nearleyc grammar.ne -o grammar.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NovaAppsInc/YakJS.git"
-  },
-  "bin": {
-    "yak": "bin"
+    "url": "git+https://github.com/NovaAppsInc/Miklir.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NovaAppsInc/YakJS/issues"
+    "url": "https://github.com/NovaAppsInc/Miklir/issues"
   },
-  "homepage": "https://github.com/NovaAppsInc/YakJS#readme",
+  "homepage": "https://github.com/NovaAppsInc/Miklir#readme",
   "dependencies": {
-    "figlet": "^1.5.2",
-    "gradient-string": "^2.0.1",
-    "inquirer": "^8.0.0",
     "moo": "^0.5.1",
     "nearley": "^2.20.1"
   }
