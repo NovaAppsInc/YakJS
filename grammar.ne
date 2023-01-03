@@ -31,7 +31,7 @@ statements
 
 statement
     -> assignment       {% id %}
-    | allowAssignment    {% id %}
+    | allowAssignment   {% id %}
     | makeAssignment    {% id %}
     | function_call     {% id %}
 
